@@ -1,0 +1,360 @@
+body {
+	background-color: #252525;
+  overflow-x:hidden;  /*для горизонтального*/
+  font-family: Consolas;
+
+}
+
+.classdiv {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 120px;
+
+}
+.classdiv .neontextyopta {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-1 .1s ease-in-out infinite alternate;
+}
+@keyframes neon-1 {
+    from {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(191, 226, 255, 0.52), 0 0 21px rgba(191, 226, 255, 0.92), 0 0 34px rgba(191, 226, 255, 0.78), 0 0 54px rgba(191, 226, 255, 0.92);
+    }
+    to {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(191, 226, 255, 0.58), 0 0 22px rgba(191, 226, 255, 0.84), 0 0 38px rgba(191, 226, 255, 0.88), 0 0 60px #FFF;
+    }
+}
+.paranormal-svg {
+	text-align: center;
+    margin-top: -574px;
+    -moz-box-shadow:0 0 70px #8b00ff;
+    -webkit-box-shadow:0 0 70px #8b00ff;
+    box-shadow:0 0 70px #8b00ff;
+}
+.whoarewe {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.classdiv2 {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 450px;
+}
+.classdiv2 .neontextyopta2 {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-1 .5s ease-in-out infinite alternate;
+}
+
+.about-us {
+    color: #fff;
+}
+.classdiv3 {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: -90px;
+}
+.classdiv3 .neontextyopta3 {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-2 .1s ease-in-out infinite alternate;
+}
+@keyframes neon-2 {
+    from {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(191, 226, 255, 0.52), 0 0 21px rgba(191, 226, 255, 0.92), 0 0 34px rgba(191, 226, 255, 0.78), 0 0 54px rgba(191, 226, 255, 0.92);
+    }
+    to {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(191, 226, 255, 0.58), 0 0 22px rgba(191, 226, 255, 0.84), 0 0 38px rgba(191, 226, 255, 0.88), 0 0 60px #fff;
+    }
+}
+#tarelochka {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: calc(0vh - 7vh);
+  left: 115vw;
+  animation: 1s ease-in 100ms 1 fly;
+}
+
+@keyframes fly {
+  0% {
+    left: -15vw;
+  }
+  100% {
+    left: 115vw;
+  }
+}
+#tarelochka2 {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: calc(40vh - 7vh);
+  left: 115vw;
+  animation: 1.50s ease-in 100ms 1 fly;
+}
+
+.We {
+    text-align: center;
+    margin-top: 140px;
+}
+.WE {
+    height: 251px; 
+    width: 651px;
+}
+.classdiv4 {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 20px;
+}
+.classdiv4 .neontextyopta4 {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-2 .1s ease-in-out infinite alternate;
+}
+
+.dsongentom{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom2{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon2{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom3{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon3{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom4{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon4{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom5{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon5{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom6{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon6{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom7{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon7{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.dsongentom8{
+  position: relative;
+  top: 50%;  
+  width: 100em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  color: #808080;
+}
+
+.desetungavon8{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 26em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.theend {
+  background-color: black;
+  color: #fff
+}
